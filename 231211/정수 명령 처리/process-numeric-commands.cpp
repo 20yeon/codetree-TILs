@@ -22,6 +22,7 @@ int main() {
             }
         }
         else if(str[0] == 's') cout<<s.size()<<endl;
+        else if(str[0] == 't') cout<<s.top()<<endl;
         else cout<<s.empty()<<endl;
 
     }
