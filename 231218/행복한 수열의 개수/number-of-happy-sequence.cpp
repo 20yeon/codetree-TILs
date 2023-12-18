@@ -17,16 +17,14 @@ int main() {
     for(int i = 0; i < n; i++){
         int check_x = 1, check_y = 1;
         for(int j = 0; j < n-1; j++){
-            if(graph[i][j] == graph[i][j+1]) {
-                check_x++;
-                if(check_x >= m) {res++; break;}
-            }else check_x = 1;
+            if(graph[i][j] == graph[i][j+1])check_x++;
+            else check_x = 1;
+            if(check_x >= m) {res++; break;}
         }
         for(int j = 0; j < n-1; j++){
-            if(graph[j][i] == graph[j+1][i]) {
-                check_y++;
-                if(check_y >= m) {res++; break;}
-            }else check_y = 1;
+            if(graph[j][i] == graph[j+1][i])check_y++;
+            else check_y = 1;
+            if(check_y >= m) {res++; break;}
         }
     }
     cout<<res;
