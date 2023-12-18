@@ -19,14 +19,14 @@ int main() {
         for(int j = 0; j < n-1; j++){
             if(graph[i][j] == graph[i][j+1]) check_x++;
             else {
-                if(check_x >= m) {res++; break;}
+                if(check_x >= m) break;
                 check_x = 1;
             }
         }
         for(int j = 0; j < n-1; j++){
             if(graph[j][i] == graph[j+1][i]) check_y++;
             else {
-                if(check_y >= m) {res++; break;}
+                if(check_y >= m)break;
                 check_y = 1;
             }
         }
