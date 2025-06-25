@@ -5,9 +5,12 @@ using namespace std;
 
 int a, b;
 
+void solve(int a, int b){
+    cout<<pow(a,b);
+}
 int main() {
     cin >> a >> b;
-    cout<<pow(a,b);
+    solve(a,b);
     // Please write your code here.
 
     return 0;
