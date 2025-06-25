@@ -8,7 +8,7 @@ char o;
 void solve(int a, int b, char c){
     if(c == '+') cout<<a<<" + "<<b<<" = "<<a+b;
     if(c == '*') cout<<a<<" * "<<b<<" = "<<a*b;
-    if(c == '/') cout<<a<<" / "<<b<<" = "out<<a/b;
+    if(c == '/') cout<<a<<" / "<<b<<" = "<<a/b;
     if(c == '-') cout<<a<<" - "<<b<<" = "<<a-b;
 }
 int main() {
