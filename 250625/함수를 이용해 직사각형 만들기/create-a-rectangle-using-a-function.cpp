@@ -5,7 +5,7 @@ using namespace std;
 int n, m;
 void p_rect(int n, int m){
     for(int i = 0; i < n; i++){
-        for(int j = 0; j < m; j++) cout<<"*";
+        for(int j = 0; j < m; j++) cout<<"1";
         cout<<endl;
     }
 }
