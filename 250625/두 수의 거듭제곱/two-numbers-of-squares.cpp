@@ -6,9 +6,7 @@ using namespace std;
 int a, b;
 
 void solve(int a, int b){
-    int res = a;
-    for(int i = 1; i < b; i++) res *= a;
-    cout<<res;
+    cout<<pow<int>(a,b);
 }
 int main() {
     cin >> a >> b;
