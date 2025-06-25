@@ -6,7 +6,7 @@ using namespace std;
 int a, b;
 
 void solve(int a, int b){
-    cout<<pow<int>(a,b);
+    cout<<(int)pow(a,b);
 }
 int main() {
     cin >> a >> b;
