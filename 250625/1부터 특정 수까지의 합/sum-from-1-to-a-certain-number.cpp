@@ -13,6 +13,6 @@ int main() {
     cin >> N;
 
     // Please write your code here.
-    cout<<sum_n(N)%10;
+    cout<<sum_n(N)/10;
     return 0;
 }
