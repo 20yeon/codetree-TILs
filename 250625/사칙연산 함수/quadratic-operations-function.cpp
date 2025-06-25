@@ -10,7 +10,7 @@ void solve(int a, int b, char c){
     else if(c == '*') cout<<a<<" * "<<b<<" = "<<a*b;
     else if(c == '/') cout<<a<<" / "<<b<<" = "<<(int)a/b;
     else if(c == '-') cout<<a<<" - "<<b<<" = "<<a-b;
-    else cout<<"false";
+    else cout<<"False";
 }
 int main() {
     cin >> a >> o >> c;
