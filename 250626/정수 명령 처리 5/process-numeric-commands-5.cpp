@@ -9,7 +9,7 @@ int num[10000];
 vector<int> v;
 
 void solve(){
-    for(int i = 0; i < n; i++){
+    for(int i = 0; i < N; i++){
         if(command[i] == "push_back") v.push_back(num[i]);
         else if(command[i] == "pop_back") v.pop_back();
         else if(command[i] == "size") cout<<v.size()<<endl;
