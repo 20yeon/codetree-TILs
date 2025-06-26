@@ -13,7 +13,7 @@ void solve(){
         if(command[i] == "push_back") v.push_back(num[i]);
         else if(command[i] == "pop_back") v.pop_back();
         else if(command[i] == "size") cout<<v.size()<<endl;
-        else cout<<v[num[i]-1];
+        else cout<<v[num[i]-1]<<endl;
     }
 }
 int main() {
